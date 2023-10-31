@@ -15,9 +15,9 @@ tree: .complete
 
 .complete:
 	rase_db_prepare_tree.py \
-		--in-newick ../published/tree.example.nw \
+		--in-newick ../published/1500_tb.newick \
 		--out-newick tree.newick \
-		--metadata ../published/isolates.example.tsv \
+		--metadata ../published/RASE_DB_1500.tsv \
 		--node-col 0 \
 		--taxid-col 0 \
 		--phylogroup-col 1
